@@ -1,0 +1,94 @@
+:root {
+    --primery-text-color: #757575;
+    --titel-text-color: #212121;
+    --accent-color: #2196F3;
+    --second-accent-color: #FFFFFF;
+}
+body {
+	background-color: #FFFFFF;
+	color: #757575;
+	font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;
+}
+.section-titel,
+.list-titel {
+    color: var(--titel-text-color);
+}
+
+/* Header */
+/* Логотип */
+.logo-accent {
+    color: var(--accent-color);
+}
+.logo {
+    color: var(--titel-text-color);
+}
+
+/* Навігація */
+.site-nav .link {
+    color: var(--titel-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+.contacts-list a,
+.address-list a {
+    color: var(--primery-text-color);
+}
+.contacts-list a:hover,
+.address-list a:hover,
+.contacts-list a:focus,
+.address-list a:focus {
+    color: var(--accent-color)
+}
+/* Main index */
+/* Герой */
+.hero {
+    background-color: #2F303A;
+}
+.hero-titel {
+    color: var(--second-accent-color);
+}
+.button.hero {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+/* Наша команда */
+.section-team {
+    background-color: #F5F4FA;
+}
+/* Footer */
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo,
+.address .address-list-item {
+    color: var(--second-accent-color)
+}
+/* Портфоліо */
+.filter-list .button {
+    background-color:#F5F4FA;
+    color: #212121;
+}
+.filter-list .button:hover,
+.filter-list .button:focus,
+.filter-list .button:active {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.work-list p {
+    color: var(--primery-text-color)
+}
+
+
+
+
+
+
