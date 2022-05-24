@@ -17,10 +17,6 @@ body {
 	color: var(--titel-text-color);
 }
 
-.list {
-	list-style: none;
-}
-
 /* Header */
 /* Логотип */
 .logo {
@@ -62,7 +58,9 @@ body {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
-	letter-spacing: 0.02em;	
+	letter-spacing: 0.02em;
+
+	text-decoration: none;
 }
 .contacts-list a:hover,
 .address-list a:hover,
@@ -85,16 +83,23 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 }
-.button.hero {
+.hero-button {
 	background-color: #2196f3;
 	color: #ffffff;
 
-	cursor: pointer;
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.8;
 	letter-spacing: 0.06em;
+
+	cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+	background-color: #ffffff;
+	color: #2196f3;
 }
 /* Секції */
 .section-titel {
@@ -110,7 +115,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.03em;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .benefits-list .text {
 	font-size: 14px;
@@ -145,7 +150,7 @@ body {
 	text-decoration: none;
 }
 .footer-logo,
-.address-list .item {
+.address-list .location {
 	color: var(--second-accent-color);
 }
 /* Портфоліо */
